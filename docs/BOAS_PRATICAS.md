@@ -8,21 +8,6 @@ Este guia apresenta boas práticas e estratégias avançadas para organizar e es
 
 Para projetos grandes, adote **módulos por domínio funcional**, separando áreas específicas por contexto:  
 
-
-Aqui está o passo a passo formatado para um arquivo README.md:
-
-markdown
-Copiar código
-# Estrutura Avançada para Apps Ionic em 2025  
-
-Este guia apresenta boas práticas e estratégias avançadas para organizar e escalar seu aplicativo Ionic, com exemplos de uso do Firebase e controle de estado.  
-
----
-
-## 1. Modularização Inteligente  
-
-Para projetos grandes, adote **módulos por domínio funcional**, separando áreas específicas por contexto:  
-
 src/app/ 
 ├── auth/ # Domínio de autenticação 
 │ 
