@@ -101,11 +101,12 @@ export const productsReducer = createReducer(
   initialState,
   on(loadProducts, (state) => ({ ...state, loading: true }))
 );
+```
 
-Akita:
+### Akita:
 Menos boilerplate e mais direto. Ideal para quem prefere simplicidade.
 
-5. Automação e Análise de Código
+### 5. Automação e Análise de Código
 Ferramentas recomendadas:
 ESLint e Prettier: Garantem consistência de estilo.
 Husky: Automação para validações antes de commits:
@@ -116,7 +117,7 @@ Análise de código:
 Use ferramentas como SonarQube para identificar problemas em projetos maiores.
 
 
-6. Testes Automatizados
+### 6. Testes Automatizados
 Adote uma estratégia robusta de testes para garantir qualidade:
 
 Testes unitários com Jasmine/Karma.
