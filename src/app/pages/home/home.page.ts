@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.page.scss'],
 })
 export class HomePage implements OnInit {
+  
+  list: Array<String> = Array.from({length: 10000}).map((_, i) => `Opção ${i.toString()}`)
 
   constructor() { }
 

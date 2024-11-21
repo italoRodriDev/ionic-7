@@ -1,0 +1,14 @@
+.example-viewport {
+  height: 400px; /* Altura do scroll */
+  width: 300px; /* Largura do scroll */
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+
+.example-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 1px solid #eee;
+}

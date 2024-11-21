@@ -8,6 +8,7 @@ import { HomePageRoutingModule } from './home-routing.module';
 
 import { HomePage } from './home.page';
 import { SharedComponentsModule } from "../../components/shared-components.module";
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 @NgModule({
   imports: [
